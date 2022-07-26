@@ -1,0 +1,61 @@
+@font-face {
+    font-family: "Entanglement-rgpRB";
+    src:  url("/fonts/Entanglement-rgpRB.ttf") format("woff2");        
+  } 
+
+  @font-face {
+    font-family: "Aquire-BW0ox";
+    src:  url("/fonts/Aquire-BW0ox.otf") format("woff2");        
+  }  
+
+.nav-bar {
+    background-color: black; 
+    padding: 20px;
+    width: 100vw;
+    display:flex;
+    justify-content:flex-start;
+    align-items:flex-start;
+    border-style: solid black;
+    font-family: "Aquire-BW0ox";
+    position: fixed;
+    top: 0;
+  
+  }
+  
+  .nav-bar a {
+    color: white;
+    text-decoration: none;
+    font-size: 2em;
+  }
+   .nav-bar-ul {
+   /*  margin: 0 auto; */
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .nav-bar-ul li {
+    list-style-type: none;
+    /* text-align: center; */
+    display: flex;
+    margin: 20px;
+  }
+    
+body {
+        background-image: url("/Images/BEYOND.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 0;
+      
+ }
+
+ .title {
+    
+    font-family: 'Entanglement-rgpRB';
+    color: white;
+    display: column;
+    justify-content: flex-end;
+ }
+
+ .title-container {
+    padding-left: 50px;
+    margin-top: 550px;
+  }
