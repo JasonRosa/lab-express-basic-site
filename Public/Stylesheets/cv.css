@@ -43,6 +43,14 @@ body {
         background-image: url("/Images/BEYOND.png");
         background-repeat: no-repeat;
         background-size: cover;
-        margin: 0;
-     
+        margin: 0;    
+ }
+
+ 
+
+
+
+ .CV {
+    padding-left: 50px;
+    margin-top: 150px;
  }

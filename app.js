@@ -13,10 +13,6 @@ app.get('/home', (req, res, next) => {
 
   });
   
-  app.get('/works', (req, res, next) => {
-    console.log(req);
-    res.sendFile(__dirname + '/public/views/works.html');
-  });
 
   app.get('/cv', (req, res, next) => {
     console.log(req);
@@ -29,9 +25,9 @@ app.get('/home', (req, res, next) => {
   });
 
 
-  app.get('/Gallery', (req, res, next) => {
+  app.get('/works', (req, res, next) => {
     console.log(req);
-    res.sendFile(__dirname + '/public/views/Gallery.html');
+    res.sendFile(__dirname + '/public/views/works.html');
   });
   
   app.listen(3000, () => {
